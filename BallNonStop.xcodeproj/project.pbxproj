@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E12C8C0E1BCFA35F0052C84A /* khung.png in Resources */ = {isa = PBXBuildFile; fileRef = E12C8C0D1BCFA35F0052C84A /* khung.png */; };
 		E12C8C111BCFA7130052C84A /* Khung.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C8C101BCFA7130052C84A /* Khung.m */; };
+		E131611F1BCFB52E009FCD66 /* khung1.png in Resources */ = {isa = PBXBuildFile; fileRef = E131611E1BCFB52E009FCD66 /* khung1.png */; };
 		E1A42B371BCE4C1800C25BD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B361BCE4C1800C25BD4 /* main.m */; };
 		E1A42B3A1BCE4C1800C25BD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B391BCE4C1800C25BD4 /* AppDelegate.m */; };
 		E1A42B421BCE4C1800C25BD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A42B411BCE4C1800C25BD4 /* Images.xcassets */; };
@@ -35,6 +36,7 @@
 		E12C8C0D1BCFA35F0052C84A /* khung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = khung.png; sourceTree = "<group>"; };
 		E12C8C0F1BCFA7130052C84A /* Khung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Khung.h; sourceTree = "<group>"; };
 		E12C8C101BCFA7130052C84A /* Khung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Khung.m; sourceTree = "<group>"; };
+		E131611E1BCFB52E009FCD66 /* khung1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = khung1.png; sourceTree = "<group>"; };
 		E1A42B311BCE4C1800C25BD4 /* BallNonStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallNonStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A42B351BCE4C1800C25BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A42B361BCE4C1800C25BD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		E1A42B5C1BCE4CB200C25BD4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E131611E1BCFB52E009FCD66 /* khung1.png */,
 				E12C8C0D1BCFA35F0052C84A /* khung.png */,
 				E1A42B6A1BCE509100C25BD4 /* Soccer.png */,
 			);
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A42B6B1BCE509100C25BD4 /* Soccer.png in Resources */,
+				E131611F1BCFB52E009FCD66 /* khung1.png in Resources */,
 				E12C8C0E1BCFA35F0052C84A /* khung.png in Resources */,
 				E1A42B451BCE4C1800C25BD4 /* LaunchScreen.xib in Resources */,
 				E1A42B421BCE4C1800C25BD4 /* Images.xcassets in Resources */,

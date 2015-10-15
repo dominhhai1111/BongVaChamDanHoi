@@ -48,11 +48,11 @@
     NSLog(@"%f", self.view.bounds.size.width);
     x= x1;
     y= y1;
-    leDuoiKhung = 13.2;
-    leTrenKung = 39.7;
-    lePhaiKhung = 115.5;
-    leTraiKhung =115.5;
-    timer = [NSTimer scheduledTimerWithTimeInterval:0.0167
+    leDuoiKhung = 11.27+ (self.size.height-320)/2;
+    leTrenKung = 33.9+(self.size.height-320)/2;
+    lePhaiKhung = 27.4+(self.size.width-427)/2;
+    leTraiKhung =27.4+(self.size.width-427)/2;
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.00888
                                              target:self
                                            selector:@selector(computePositionBall)
                                            userInfo:nil
@@ -69,8 +69,8 @@
     }
 -(void) addKhung
 {
-    UIImage* khungPicture = [UIImage imageNamed:@"Khung"];
-    khung = [[Khung alloc] initWithName: @"khung"
+    UIImage* khungPicture = [UIImage imageNamed:@"khung1"];
+    khung = [[Khung alloc] initWithName: @"khung1"
                               ownView: [[UIImageView alloc] initWithImage:khungPicture]
                               inScene: self];
     khung.view.center = CGPointMake(self.view.bounds.size.width/2, self.view.bounds.size.height/2 );
@@ -83,9 +83,9 @@
     a = (y2-y1)/(x2 - x1);
     b = y1 - a*x1;
     if (daoHuong ==YES) {
-        x += 5;
+        x += 3;
     }else{
-        x -= 5;
+        x -= 3;
     }
     y =a*x+ b;
     ball.view.center = CGPointMake(x, y)  ;
