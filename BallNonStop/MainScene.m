@@ -15,9 +15,8 @@
 
 @implementation MainScene
 {
-    Ball* ball ;
+    Ball* ball  ;
     Khung* khung;
- 
     CGFloat x1, //hoanh do diem 1
             x2, //hoanh do diem 2
             y1, // tung do diem 1
@@ -26,13 +25,13 @@
             b , // he so b
             y , // tung do diem bien thien
             x , // hoanh do diem bien then
-            leTrenKung,
+            leTrenKung ,
             leDuoiKhung,
             leTraiKhung,
             lePhaiKhung,
-      banKinhBall;
+            banKinhBall;
     bool daoHuong  ;
-    NSTimer* timer;
+    NSTimer* timer ;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -53,7 +52,11 @@
     leTrenKung = 39.7;
     lePhaiKhung = 115.5;
     leTraiKhung =115.5;
-    timer = [NSTimer scheduledTimerWithTimeInterval:0.0167 target:self selector:@selector(computePositionBall) userInfo:nil repeats:true];
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.0167
+                                             target:self
+                                           selector:@selector(computePositionBall)
+                                           userInfo:nil
+                                            repeats:true];
 }
 -(void) addBall
 {
@@ -83,19 +86,16 @@
         x += 5;
     }else{
         x -= 5;
-    
     }
-    
     y =a*x+ b;
-    
-        ball.view.center = CGPointMake(x, y)  ;
-    if ((y> self.size.height-banKinhBall-leDuoiKhung || y<banKinhBall+leTrenKung) && (x > self.size.width-banKinhBall-lePhaiKhung || x<banKinhBall+leTraiKhung)) {
+    ball.view.center = CGPointMake(x, y)  ;
+    if ((y> self.size.height-banKinhBall-leDuoiKhung || y<banKinhBall+leTrenKung)
+        && (x > self.size.width-banKinhBall-lePhaiKhung || x<banKinhBall+leTraiKhung)) {
         daoHuong = !daoHuong;
         y2 = y1 ;
         x2 = x1 ;
         y1 = y ;
         x1 = x ;
-        
     }else {
                if (y> self.size.height-banKinhBall-leDuoiKhung || y<banKinhBall+leTrenKung) {
                 if ( x - x1 > 0) {
@@ -107,7 +107,6 @@
                 x2 = 2*x - x1;
                 y1 = y;
                 x1 = x;
-                
             }
             if (x > self.size.width-banKinhBall-lePhaiKhung || x<banKinhBall+leTraiKhung)  {
                 if ( x2 - x1 > 0) {
