@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E12C8C0E1BCFA35F0052C84A /* khung.png in Resources */ = {isa = PBXBuildFile; fileRef = E12C8C0D1BCFA35F0052C84A /* khung.png */; };
+		E12C8C111BCFA7130052C84A /* Khung.m in Sources */ = {isa = PBXBuildFile; fileRef = E12C8C101BCFA7130052C84A /* Khung.m */; };
 		E1A42B371BCE4C1800C25BD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B361BCE4C1800C25BD4 /* main.m */; };
 		E1A42B3A1BCE4C1800C25BD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B391BCE4C1800C25BD4 /* AppDelegate.m */; };
-		E1A42B3D1BCE4C1800C25BD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B3C1BCE4C1800C25BD4 /* ViewController.m */; };
-		E1A42B401BCE4C1800C25BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A42B3E1BCE4C1800C25BD4 /* Main.storyboard */; };
 		E1A42B421BCE4C1800C25BD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A42B411BCE4C1800C25BD4 /* Images.xcassets */; };
 		E1A42B451BCE4C1800C25BD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A42B431BCE4C1800C25BD4 /* LaunchScreen.xib */; };
 		E1A42B511BCE4C1900C25BD4 /* BallNonStopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B501BCE4C1900C25BD4 /* BallNonStopTests.m */; };
+		E1A42B601BCE4D1B00C25BD4 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B5F1BCE4D1B00C25BD4 /* Scene.m */; };
+		E1A42B631BCE4D3100C25BD4 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B621BCE4D3100C25BD4 /* Sprite.m */; };
+		E1A42B661BCE4D5C00C25BD4 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B651BCE4D5C00C25BD4 /* MainScene.m */; };
+		E1A42B691BCE4D7800C25BD4 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42B681BCE4D7800C25BD4 /* Ball.m */; };
+		E1A42B6B1BCE509100C25BD4 /* Soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A42B6A1BCE509100C25BD4 /* Soccer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E12C8C0D1BCFA35F0052C84A /* khung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = khung.png; sourceTree = "<group>"; };
+		E12C8C0F1BCFA7130052C84A /* Khung.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Khung.h; sourceTree = "<group>"; };
+		E12C8C101BCFA7130052C84A /* Khung.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Khung.m; sourceTree = "<group>"; };
 		E1A42B311BCE4C1800C25BD4 /* BallNonStop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallNonStop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A42B351BCE4C1800C25BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A42B361BCE4C1800C25BD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1A42B381BCE4C1800C25BD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1A42B391BCE4C1800C25BD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E1A42B3B1BCE4C1800C25BD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E1A42B3C1BCE4C1800C25BD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E1A42B3F1BCE4C1800C25BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1A42B411BCE4C1800C25BD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E1A42B441BCE4C1800C25BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E1A42B4A1BCE4C1900C25BD4 /* BallNonStopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallNonStopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A42B4F1BCE4C1900C25BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A42B501BCE4C1900C25BD4 /* BallNonStopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallNonStopTests.m; sourceTree = "<group>"; };
+		E1A42B5E1BCE4D1B00C25BD4 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		E1A42B5F1BCE4D1B00C25BD4 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		E1A42B611BCE4D3100C25BD4 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		E1A42B621BCE4D3100C25BD4 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		E1A42B641BCE4D5C00C25BD4 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		E1A42B651BCE4D5C00C25BD4 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		E1A42B671BCE4D7800C25BD4 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		E1A42B681BCE4D7800C25BD4 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		E1A42B6A1BCE509100C25BD4 /* Soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soccer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +95,12 @@
 		E1A42B331BCE4C1800C25BD4 /* BallNonStop */ = {
 			isa = PBXGroup;
 			children = (
+				E1A42B5D1BCE4CDC00C25BD4 /* GameCore */,
 				E1A42B381BCE4C1800C25BD4 /* AppDelegate.h */,
 				E1A42B391BCE4C1800C25BD4 /* AppDelegate.m */,
-				E1A42B3B1BCE4C1800C25BD4 /* ViewController.h */,
-				E1A42B3C1BCE4C1800C25BD4 /* ViewController.m */,
-				E1A42B3E1BCE4C1800C25BD4 /* Main.storyboard */,
+				E1A42B5A1BCE4C9500C25BD4 /* Scene */,
+				E1A42B5B1BCE4CA500C25BD4 /* Sprite */,
+				E1A42B5C1BCE4CB200C25BD4 /* Resources */,
 				E1A42B411BCE4C1800C25BD4 /* Images.xcassets */,
 				E1A42B431BCE4C1800C25BD4 /* LaunchScreen.xib */,
 				E1A42B341BCE4C1800C25BD4 /* Supporting Files */,
@@ -117,6 +132,46 @@
 				E1A42B4F1BCE4C1900C25BD4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1A42B5A1BCE4C9500C25BD4 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E1A42B641BCE4D5C00C25BD4 /* MainScene.h */,
+				E1A42B651BCE4D5C00C25BD4 /* MainScene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		E1A42B5B1BCE4CA500C25BD4 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				E1A42B671BCE4D7800C25BD4 /* Ball.h */,
+				E1A42B681BCE4D7800C25BD4 /* Ball.m */,
+				E12C8C0F1BCFA7130052C84A /* Khung.h */,
+				E12C8C101BCFA7130052C84A /* Khung.m */,
+			);
+			name = Sprite;
+			sourceTree = "<group>";
+		};
+		E1A42B5C1BCE4CB200C25BD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E12C8C0D1BCFA35F0052C84A /* khung.png */,
+				E1A42B6A1BCE509100C25BD4 /* Soccer.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E1A42B5D1BCE4CDC00C25BD4 /* GameCore */ = {
+			isa = PBXGroup;
+			children = (
+				E1A42B5E1BCE4D1B00C25BD4 /* Scene.h */,
+				E1A42B5F1BCE4D1B00C25BD4 /* Scene.m */,
+				E1A42B611BCE4D3100C25BD4 /* Sprite.h */,
+				E1A42B621BCE4D3100C25BD4 /* Sprite.m */,
+			);
+			name = GameCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A42B401BCE4C1800C25BD4 /* Main.storyboard in Resources */,
+				E1A42B6B1BCE509100C25BD4 /* Soccer.png in Resources */,
+				E12C8C0E1BCFA35F0052C84A /* khung.png in Resources */,
 				E1A42B451BCE4C1800C25BD4 /* LaunchScreen.xib in Resources */,
 				E1A42B421BCE4C1800C25BD4 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A42B3D1BCE4C1800C25BD4 /* ViewController.m in Sources */,
+				E1A42B601BCE4D1B00C25BD4 /* Scene.m in Sources */,
 				E1A42B3A1BCE4C1800C25BD4 /* AppDelegate.m in Sources */,
+				E1A42B691BCE4D7800C25BD4 /* Ball.m in Sources */,
+				E1A42B661BCE4D5C00C25BD4 /* MainScene.m in Sources */,
+				E1A42B631BCE4D3100C25BD4 /* Sprite.m in Sources */,
 				E1A42B371BCE4C1800C25BD4 /* main.m in Sources */,
+				E12C8C111BCFA7130052C84A /* Khung.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +304,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E1A42B3E1BCE4C1800C25BD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1A42B3F1BCE4C1800C25BD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E1A42B431BCE4C1800C25BD4 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +468,7 @@
 				E1A42B561BCE4C1900C25BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A42B571BCE4C1900C25BD4 /* Build configuration list for PBXNativeTarget "BallNonStopTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +477,7 @@
 				E1A42B591BCE4C1900C25BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
